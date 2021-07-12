@@ -1,0 +1,111 @@
+/*----------------------------------- BASICS STYLES ----------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --black: #1a1a1a;
+    --white: #fff;
+
+    --blue--light: #00BFFF;
+    --blue--medium: #0080FF;
+    --blue--dark: #0040FF;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+/*------------------------------------HEADER OF BLOG------------------------*/
+
+h1{
+    font-size: 20px;
+}
+
+header{
+    
+    width: 100%;
+
+    color: var(--white);
+    background-color: var(--black);
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav ul li{
+    width: 100%;
+
+    padding: 5px;
+}
+
+header nav ul li:hover{
+    background-color: black;
+}
+
+/*-------------------------------------MAIN OF BLOG--------------------------*/
+
+main div{
+    height: 100px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    transition: 0.10s;
+
+    color: var(--white);
+
+}
+
+main div:hover{
+    height: 120px;
+}
+
+main .blogs{
+
+
+    background-color: var(--blue--light);
+}
+
+main .tutorials{
+
+    background-color: var(--blue--medium);
+}
+
+main .recourses{
+
+
+    background-color: var(--blue--dark);
+}
+
+/*----------------------------------------  FOOTER OF THE BLOG-------------------------*/
+
+footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    color: var(--white);
+    background-color: var(--black);
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    list-style: none;
+}
+
